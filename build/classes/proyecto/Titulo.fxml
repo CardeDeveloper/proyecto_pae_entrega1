@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+
+      <Pane fx:id="p_root" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.InicioController" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgba(168, 175, 161, 0.93);">
+         <children>
+            <Button fx:id="b_play" layoutX="233.0" layoutY="233.0" mnemonicParsing="false" onAction="#nextScene" prefHeight="64.0" prefWidth="157.0" style="-fx-background-color: rgb(226, 128, 0);" text="¡JUGAR!">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="21.0" />
+               </font>
+            </Button>
+            <Label layoutX="119.0" layoutY="50.0" text="mini -">
+               <font>
+                  <Font name="Bookman Old Style" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="193.0" layoutY="78.0" text="¿Juegas?">
+               <font>
+                  <Font name="Britannic Bold" size="86.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="56.0" fitWidth="63.0" layoutX="265.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pacman.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="DARKEN" fitHeight="32.0" fitWidth="27.0" layoutX="351.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@coin.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="DARKEN" fitHeight="32.0" fitWidth="27.0" layoutX="400.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@coin.png" />
+               </image>
+            </ImageView>
+            <ImageView blendMode="DARKEN" fitHeight="32.0" fitWidth="27.0" layoutX="451.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="118.0" fitWidth="118.0" layoutX="67.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" rotate="-109.4">
+               <image>
+                  <Image url="@fireworks.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="64.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true" rotate="-18.4">
+               <image>
+                  <Image url="@puzzle.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="109.0" fitWidth="116.0" layoutX="439.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ping-pong.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+
